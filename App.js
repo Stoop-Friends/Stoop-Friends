@@ -12,7 +12,7 @@ import Map from './client/components/Map';
 import Post from './client/components/Post';
 import { NavigationContainer } from '@react-navigation/native';
 
-const Stack = createNativeStackNavigator();
+// const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
