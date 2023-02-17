@@ -5,8 +5,6 @@ import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createNativeStackNavigator();
 
-// const { RealmProvider } = PostSchema;
-
 export default function App() {
   return (
     // <View style={styles.container}>
