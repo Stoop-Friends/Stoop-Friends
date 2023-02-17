@@ -1,23 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import {
-  Alert,
-  StyleSheet,
-  Text,
-  View,
-  Button,
-  SafeAreaView,
-} from 'react-native';
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps';
 import Map from './client/components/Map';
-
 import Post from './client/components/Post';
 import { NavigationContainer } from '@react-navigation/native';
 
-// const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
-import PostSchema from './client/components/PostSchema';
-const { RealmProvider } = PostSchema;
-
+// const { RealmProvider } = PostSchema;
 
 export default function App() {
   return (
@@ -28,33 +16,33 @@ export default function App() {
 
     <NavigationContainer>
 
-    <RealmProvider>
-
       <View style={{ flex: 1 }}>
         <Text
-          style={{ flex: 1, marginTop: 50, textAlign: 'center', fontSize: 25 }}
+          style={{
+            flex: 1,
+            marginTop: 50,
+            textAlign: 'center',
+            fontSize: 25,
+          }}
         >
           Welcome to Super-Stooper
         </Text>
 
-        <StatusBar style="auto" />
+        <StatusBar style='auto' />
 
         <Map />
         <View style={styles.button}>
           <Button
             // style={styles.fixToText}
 
-            title="POST A STOOP SALE"
-            color="purple"
-
+            title='POST A STOOP SALE'
+            color='purple'
             onPress={() => Alert.alert('look at you, you pressed the button')}
           />
         </View>
       </View>
-    </RealmProvider>
+
     </NavigationContainer>
-
-
   );
 }
 

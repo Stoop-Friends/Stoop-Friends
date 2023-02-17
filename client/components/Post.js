@@ -13,8 +13,8 @@ export default function Post() {
   return (
     <View>
       <Text>POST A STOOP SALE</Text>
-      <TextInput placeholder="start time" />
-      <TextInput placeholder="end time" />
+      <TextInput placeholder='start time' />
+      <TextInput placeholder='end time' />
       <TextInput placeholder="what's there?" />
     </View>
   );
