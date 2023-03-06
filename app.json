@@ -7,7 +7,7 @@
     "icon": "./public/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./public/assets/splash.png",
+      "image": "./public/assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,12 +20,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./public/assets/adaptive-icon.png",
+        "foregroundImage": "./public/assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./public/assets/favicon.png"
+      "favicon": "./public/assets/icon.png"
     }
   }
 }
