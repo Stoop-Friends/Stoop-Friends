@@ -9,7 +9,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyBh3UbCLRYP9wGO_aBTix6UCS8_jBDaobc"];
+  [GMSServices provideAPIKey:@"GOOGLE MAPS API KEY HERE"];
   self.moduleName = @"MyRealmApp";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
