@@ -6,8 +6,8 @@ import Sales from './Sales';
 export default function Map() {
   return (
     <MapView
-      style={{flex: 1}}
-      // provider={PROVIDER_GOOGLE}
+      style={{flex: 10, margin: 30, borderRadius: 10}}
+      provider={PROVIDER_GOOGLE}
 
       // provider='google'
       showsUserLocation={true}
@@ -21,7 +21,7 @@ export default function Map() {
         longitudeDelta: 0.0421,
       }}>
       {/* <Sales /> */}
-      {/* <Marker
+      <Marker
         coordinate={{
           latitude: 40.688615,
           longitude: -74.018907,
@@ -33,7 +33,7 @@ export default function Map() {
           <Text>Hours</Text>
           <Text>What kinda stuff is there</Text>
         </Callout>
-      </Marker> */}
+      </Marker>
     </MapView>
   );
 }
